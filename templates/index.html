@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Home - ABE Project{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="mb-3">Welcome to ABE Project</h1>
+    <p class="lead">This application demonstrates Attribute-Based Encryption (ABE) for secure file sharing.</p>
+
+    <div class="row mt-4">
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Admin Panel</h5>
+                    <p class="card-text">Manage users, attributes, and ABE keys.</p>
+                    <a href="/admin" class="btn btn-primary">Go to Admin</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">User Area</h5>
+                    <p class="card-text">Upload and download encrypted files.</p>
+                    <a href="/user" class="btn btn-success">Go to User</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
