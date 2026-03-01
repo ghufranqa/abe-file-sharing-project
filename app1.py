@@ -11,7 +11,7 @@ from cryptography.fernet import Fernet
 import json
 
 app = Flask(__name__)
-app.secret_key = "change_this_secret_key"  # temporary secret key
+app.secret_key = "P@ssw0rdstrongP@ssw0rd"  # temporary secret key
 
 
 # === Database config ===
